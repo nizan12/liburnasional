@@ -1,0 +1,142 @@
+[
+  {
+    "date": "2025-01-01",
+    "name": "Tahun Baru 2025 Masehi",
+    "is_national_holiday": true
+  },
+  {
+    "date": "2025-01-27",
+    "name": "Isra Mi'raj Nabi Muhammad SAW",
+    "is_national_holiday": true
+  },
+  {
+    "date": "2025-01-28",
+    "name": "Cuti Bersama Tahun Baru Imlek 2576 Kongzili",
+    "is_national_holiday": false
+  },
+  {
+    "date": "2025-01-29",
+    "name": "Tahun Baru Imlek 2576 Kongzili",
+    "is_national_holiday": true
+  },
+  {
+    "date": "2025-03-28",
+    "name": "Cuti Bersama Hari Suci Nyepi Tahun Baru Saka 1947",
+    "is_national_holiday": false
+  },
+  {
+    "date": "2025-03-29",
+    "name": "Hari Suci Nyepi Tahun Baru Saka 1947",
+    "is_national_holiday": true
+  },
+  {
+    "date": "2025-03-31",
+    "name": "Hari Raya Idul Fitri 1446 Hijriyah",
+    "is_national_holiday": true
+  },
+  {
+    "date": "2025-04-01",
+    "name": "Hari Raya Idul Fitri 1446 Hijriyah",
+    "is_national_holiday": true
+  },
+  {
+    "date": "2025-04-02",
+    "name": "Cuti Bersama Hari Raya Idul Fitri 1446 Hijriyah",
+    "is_national_holiday": false
+  },
+  {
+    "date": "2025-04-03",
+    "name": "Cuti Bersama Hari Raya Idul Fitri 1446 Hijriyah",
+    "is_national_holiday": false
+  },
+  {
+    "date": "2025-04-04",
+    "name": "Cuti Bersama Hari Raya Idul Fitri 1446 Hijriyah",
+    "is_national_holiday": false
+  },
+  {
+    "date": "2025-04-07",
+    "name": "Cuti Bersama Hari Raya Idul Fitri 1446 Hijriyah",
+    "is_national_holiday": false
+  },
+  {
+    "date": "2025-04-18",
+    "name": "Wafat Yesus Kristus / Jumat Agung",
+    "is_national_holiday": true
+  },
+  {
+    "date": "2025-04-20",
+    "name": "Kebangkitan Yesus Kristus (Paskah)",
+    "is_national_holiday": true
+  },
+  {
+    "date": "2025-05-01",
+    "name": "Hari Buruh Internasional",
+    "is_national_holiday": true
+  },
+  {
+    "date": "2025-05-12",
+    "name": "Hari Raya Waisak 2569 BE",
+    "is_national_holiday": true
+  },
+  {
+    "date": "2025-05-13",
+    "name": "Cuti Bersama Hari Raya Waisak 2569 BE",
+    "is_national_holiday": false
+  },
+  {
+    "date": "2025-05-29",
+    "name": "Kenaikan Yesus Kristus",
+    "is_national_holiday": true
+  },
+  {
+    "date": "2025-05-30",
+    "name": "Cuti Bersama Kenaikan Yesus Kristus",
+    "is_national_holiday": false
+  },
+  {
+    "date": "2025-06-01",
+    "name": "Hari Lahir Pancasila",
+    "is_national_holiday": true
+  },
+  {
+    "date": "2025-06-06",
+    "name": "Hari Raya Idul Adha 1446 Hijriyah",
+    "is_national_holiday": true
+  },
+  {
+    "date": "2025-06-09",
+    "name": "Cuti Bersama Hari Raya Idul Adha 1446 Hijriyah",
+    "is_national_holiday": false
+  },
+  {
+    "date": "2025-06-27",
+    "name": "Tahun Baru Islam 1447 Hijriyah",
+    "is_national_holiday": true
+  },
+  {
+    "date": "2025-08-17",
+    "name": "Hari Kemerdekaan Republik Indonesia",
+    "is_national_holiday": true
+  },
+  {
+    "date": "2025-08-18",
+    "name": "Cuti Bersama Hari Kemerdekaan Republik Indonesia",
+    "is_national_holiday": false
+  },
+  {
+    "date": "2025-09-05",
+    "name": "Maulid Nabi Muhammad SAW",
+    "is_national_holiday": true
+  },
+  {
+    "date": "2025-12-25",
+    "name": "Hari Raya Natal",
+    "is_national_holiday": true
+  },
+  {
+    "date": "2025-12-26",
+    "name": "Cuti Bersama Hari Raya Natal",
+    "is_national_holiday": false
+  }
+]

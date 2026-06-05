@@ -61,7 +61,7 @@ export const getHolidaysWithCache = async (year, forceRefresh = false) => {
     const rawData = await fs.readFile(cacheFile, 'utf8');
     cachedData = JSON.parse(rawData);
 
-    if (isPastYear) {
+    if (isPastYear || process.env.VERCEL) {
       cacheExpired = false;
     } else {
       const age = Date.now() - stats.mtimeMs;
