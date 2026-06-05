@@ -1,0 +1,16 @@
+{
+  "name": "liburbaru",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.11.2",
+    "@hono/zod-validator": "^0.2.1",
+    "cheerio": "^1.0.0-rc.12",
+    "hono": "^4.4.2",
+    "zod": "^3.23.8"
+  }
+}
