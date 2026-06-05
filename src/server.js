@@ -5,7 +5,7 @@ import { cors } from 'hono/cors';
 import { logger } from 'hono/logger';
 import { z } from 'zod';
 import { zValidator } from '@hono/zod-validator';
-import { getHolidaysWithCache } from './src/cache.js';
+import { getHolidaysWithCache } from './cache.js';
 
 // Setup timezone helper
 const getJakartaDateInfo = (date) => {
@@ -136,7 +136,7 @@ app.get('/api/tomorrow', async (c) => {
   }
 });
 
-// Static files (frontend)
+// Static files (frontend) - only when running locally
 app.use('/*', serveStatic({ root: './public' }));
 
 // Global error handler
@@ -151,10 +151,13 @@ app.onError((err, c) => {
   );
 });
 
-const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 8080;
-console.log(`Server running on http://localhost:${port}`);
+export default app;
 
-serve({
-  fetch: app.fetch,
-  port,
-});
+if (!process.env.VERCEL) {
+  const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 8080;
+  console.log(`Server running on http://localhost:${port}`);
+  serve({
+    fetch: app.fetch,
+    port,
+  });
+}
